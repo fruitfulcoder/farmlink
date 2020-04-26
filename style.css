@@ -25,6 +25,40 @@ ul {
   font-family: copperplate;
   
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: impact;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form {
+    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  border: 2px solid purple;
+}
+
+.form:hover {
+  cursor: pointer;
+  background-color: purple;
+}
+
 .title {
   font-size: 30px;
   color: black;
