@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div class="toolbar">
+  <a class="title" href="home.html">Farm Link</a>
+  <a class="buttons" href="jobs.html">Jobs</a>
+  <a class="buttons" href="finance.html">Shopping</a>
+  <a class="buttons" href="map.html">Map</a>
+</div>
+    <h1> Find local farmers </h1>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.397, lng: -82.644},
+          zoom: 7
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+    async defer></script>
+  </body>
+</html>
