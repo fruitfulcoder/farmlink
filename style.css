@@ -1,28 +1,45 @@
 html, body {
-  background: #fffcf5;
+  background: #ffb217;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-h1 {
+h3, h1 {
   color: black;
-  font-family: georgia;
+  font-family: arial;
   padding-left: 100px;
   padding-top: 20px;
 }
 
+h1, h2, h3, h4, h5, p {
+    margin: 2rem 0;
+}
+
+h1, h2, h3, h4, h5{
+
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em;
+    font-size: 2rem;
+}
+
 p {
   color: white;
-  font-family: copperplate;
+  font-family: "copperplate";
 }
 
 a {
   color: aliceblue;
 }
 ul {
-  color: white;
-  font-family: copperplate;
+  color: black;
+  font-family: "copperplate";
   
 }
 
