@@ -60,6 +60,11 @@ ul {
   
 }
 
+.bio {
+  float: left;
+  width: 33%;
+}
+
 .container {
   position: relative;
   text-align: center;
