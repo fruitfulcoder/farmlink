@@ -36,6 +36,7 @@ p {
 
 a {
   color: aliceblue;
+  font-family: arial;
 }
 ul {
   color: black;
@@ -62,26 +63,30 @@ ul {
   padding-right: 10px;
 }
 
-.form {
-    padding-top: 10px;
+.form, .checkout {
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 3px;
-  border: 2px solid purple;
+  border: 2px solid orangered;
+  color:orangered;
+  text-decoration: none;
 }
 
-.form:hover {
+.form:hover, .checkout:hover {
   cursor: pointer;
-  background-color: purple;
+  background-color: orangered;
+  color:white;
 }
+
 
 .title {
   font-size: 30px;
   color: black;
   font-family: georgia;
   text-transform: uppercase;
-  border-right: 2px solid mediumaquamarine;
+  border-right: 2px solid orangered;
   padding: 0px 5px;
   padding-bottom: 7px;
   text-decoration: none;
@@ -94,14 +99,14 @@ ul {
 }
 
 .title:hover {
-  background: mediumaquamarine;
+  background: orangered;
   cursor: pointer;
 }
 
 .buttons {
   outline: none;
-  border-right: 1px solid mediumaquamarine;
-  border-left: 2px solid mediumaquamarine;
+  border-right: 1px solid orangered;
+  border-left: 2px solid orangered;
   padding: 12px 8px;
   color: black;
   text-decoration: none;
@@ -109,12 +114,13 @@ ul {
   float: right;
 }
 
-.buttons:hover {
-  background-color: mediumaquamarine;
+.buttons:hover{
+  background-color: orangered;
 }
 
+
 .toolbar {
-  border: 2px solid mediumaquamarine;
+  border: 2px solid orangered;
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 7px;
@@ -138,4 +144,13 @@ img.main {
   font-family: impact;
   text-transform: uppercase;
   
+}
+
+a {
+ text-decoration: none;
+ border: 2px solid orangered;
+ border-radius: 10px;
+ padding: 1px 7px;
+ color: white;
+transition: 0.5s;
 }
